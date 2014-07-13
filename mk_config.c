@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <utmp.h>
+#include <stdlib.h> 
 
 int main(int argc, char **argv)
 {
