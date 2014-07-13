@@ -7,7 +7,7 @@
 //    Assembly declarations
 //
 // Author:
-//	Jonathan Stowe <jns@gellyfish.com>
+//	Jonathan Stowe <jns@gellyfish.co.uk>
 //
 // (c) 2004 Jonathan Stowe
 //
@@ -32,10 +32,6 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
-// $Log: AssemblyInfo.cs,v $
-// Revision 1.2  2004/07/16 18:28:09  jonathan
-// * Added header license to all file
-// * Added Entries to the Linux.User.LastLog
 //
 // 
 using System.Reflection;
@@ -55,4 +51,3 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyVersion("1.0.*")]
 
 [assembly: AssemblyDelaySign(false)]
-[assembly: AssemblyKeyFile("Linux.User.snk")]
