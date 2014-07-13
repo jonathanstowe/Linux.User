@@ -7,7 +7,7 @@
 //    Various Utility Functions
 //
 // Author:
-//	Jonathan Stowe <jns@gellyfish.com>
+//	Jonathan Stowe <jns@gellyfish.co.uk>
 //
 // (c) 2004 Jonathan Stowe
 //
