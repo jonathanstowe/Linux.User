@@ -19,3 +19,6 @@ If you want to install it in the global assemby cache you can type
    gacutil -i Linux.User.dll
 
 probably with root permissions.
+
+There is some example code in the examples directory, showing how some common
+Unix utilities might be implemented using this library.
