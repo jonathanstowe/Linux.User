@@ -16,7 +16,7 @@ change this.
 
 If you want to install it in the global assemby cache you can type
 
-   gacutil -i Linux.User.dll
+    gacutil -i Linux.User.dll
 
 probably with root permissions.
 
