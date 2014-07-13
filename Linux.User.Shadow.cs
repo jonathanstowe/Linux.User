@@ -7,7 +7,7 @@
 //    Access to the shadow password file information
 //
 // Author:
-//	Jonathan Stowe <jns@gellyfish.com>
+//	Jonathan Stowe <jns@gellyfish.co.uk>
 //
 // (c) 2004 Jonathan Stowe
 //
