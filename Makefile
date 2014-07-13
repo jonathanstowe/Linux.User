@@ -16,10 +16,13 @@ Linux.User.Config.cs:	mk_config
 mk_config:	mk_config.c
 	cc -o mk_config mk_config.c
 
-examples:	lastlog.exe
+examples:	lastlog.exe who.exe
 
-lastlog.exe:	Linux.User.dll
+lastlog.exe:	Linux.User.dll examples/lastlog.cs
 	$(CSC) -lib:. -r:Linux.User.dll -out:lastlog.exe examples/lastlog.cs
+
+who.exe:	Linux.User.dll examples/who.cs
+	$(CSC) -lib:. -r:Linux.User.dll -out:who.exe examples/who.cs
 	
 clean:
 	rm -f *.exe *.dll *~ mk_config Linux.User.Config.cs
