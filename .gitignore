@@ -1,0 +1,4 @@
+*.dll
+*.exe
+mk_config
+Linux.User.Config.cs
