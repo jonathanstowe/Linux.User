@@ -172,7 +172,7 @@ namespace Linux.User
             this.Expire = Convert.ToInt32(entries[7]);
             this.Flag = Convert.ToInt32(entries[8]);
          }
-         catch ( FormatException e )
+         catch ( FormatException )
          {
          }
       }

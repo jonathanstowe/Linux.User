@@ -182,7 +182,7 @@ namespace Linux.User
                this.Password = se.Password;
             }
          }
-         catch ( UnauthorizedAccessException e)
+         catch ( UnauthorizedAccessException )
          {
             this.Password = entries[1]; /// This is obvious bollocks
          }
