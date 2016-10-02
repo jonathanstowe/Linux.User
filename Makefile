@@ -5,7 +5,7 @@ SRC = Linux.User.Utmp.cs \
 		Linux.User.Utils.cs \
 		AssemblyInfo.cs
 
-CSC = gmcs
+CSC = mcs
 
 Linux.User.dll:	$(SRC) Linux.User.Config.cs
 	$(CSC) /t:library /out:Linux.User.dll -nowarn:0219 -keyfile:Linux.User.snk $(SRC) Linux.User.Config.cs
